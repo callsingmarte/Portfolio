@@ -1,0 +1,136 @@
+{
+  "select_language": "Seleccionar idioma",
+  "nav": {
+    "home": "Inicio",
+    "projects": "Proyectos",
+    "resume": "Currículum",
+    "about": "Sobre Mí",
+    "contact": "Contacto"
+  },
+  "sections": {
+    "resume": "Currículum",
+    "resumeDescription": "Aquí puedes encontrar mi currículum completo, incluyendo experiencia laboral, educación y habilidades.",
+    "projects": "Proyectos",
+    "projectsDescription": "Aquí puedes ver algunos de mis proyectos más destacados.",
+    "technologies": "Tecnologías",
+    "frameworks": "Frameworks",
+    "languages": "Lenguajes",
+    "cloud": "Nube",
+    "versionControl": "Control de Versiones",
+    "containerization": "Contenerización",
+    "collaboration": "Colaboración",
+    "skills": "Habilidades",
+    "experience": "Experiencia",
+    "experienceDescription": "Experiencia laboral relevante",
+    "education": "Educación",
+    "educationDescription": "Formación académica y cursos relevantes",
+    "certifications": "Certificaciones",
+    "certificationsDescription": "Certificaciones obtenidas en diversas tecnologías"
+  },
+  "common": {
+    "view_details": "Ver Detalles",
+    "back_to_projects": "Volver a Proyectos",
+    "know_more": "Saber Más",
+    "go_to_certification": "Ir a la Certificación"
+  },
+  "languages": {
+    "spanish": "Español",
+    "english": "Inglés",
+    "french": "Francés"
+  },
+  "countries": {
+    "spain": "España",
+    "united_kingdom": "Reino Unido",
+    "france": "Francia"
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "description": "Soy un desarrollador web apasionado con experiencia en Vue.js, JavaScript y tecnologías modernas. Me encanta crear aplicaciones web interactivas y eficientes."
+  },
+  "experience": {
+    "gamersfy": {
+      "shortDescription": "He trabajado en el desarrollo de Frontend como de Backend para la aplicación Gamersfy así como para una herramienta interna (Gestor). Mis labores han sido tanto de mantenimiento como de aportar nuevas funciones a la aplicacion o a la herramienta interna.",
+      "description": "He trabajado en el desarrollo de Frontend como de Backend para la aplicación Gamersfy así como para una herramienta interna (Gestor).A nivel de Frontend he trabajado con javascript usando el framework Vue, ademas he usado Angular e Ionic, tambien he usado bootstrap. En cuanto al Backend he desarrollado con PHP y Laravel como Framework. Para las consultas a base de datos he trabajado con  MySQL. He trabajado en un entorno de desarrollo ágil utilizando Git para el control de versiones. Para la colaboración en equipo usamos Trello y Slack. Me he desenvuelto con patrones de diseño como el Singleton, el modelo vista controlador y el repositorio. Mis labores han sido tanto de mantenimiento como de aportar nuevas funciones a la aplicacion o a la herramienta interna.",
+      "job_title": "Desarrollador Full Stack",
+      "company": "Gamers Revolution",
+      "duration": "Septiembre 2020 - Diciembre 2022"
+    },
+    "internCampusYFormacion": {
+      "shortDescription": "He proporcionado soluciones de desarrollo web para una herramienta interna (CRM) utilizando el framework Laravel, tambien llevado a cabo tareas de mantenimiento como copias de seguridad del servidor y de los dominios web. He usado el control de versiones git como control de versiones asi como Trello para la colaboración en equipo. Tambien he trabajado algo en wordpress.",
+      "description": "He proporcionado soluciones de desarrollo web para una herramienta interna (CRM) utilizando el framework Laravel, tambien llevado a cabo tareas de mantenimiento como copias de seguridad del servidor y de los dominios web. He usado el control de versiones git como control de versiones asi como Trello para la colaboración en equipo. Tambien he trabajado algo en wordpress.",
+      "job_title": "Desarrollador Web",
+      "company": "Campus y Formación",
+      "duration": "Marzo 2024 - Junio 2024"
+    },
+    "internIlion": {
+      "shortDescription": "He apoyado al departamento de Layout como asistente de produccion, preparando reuniones y asignando tareas.",
+      "description": "He apoyado al departamento de Layout como asistente de produccion, preparando reuniones y asignando tareas.",
+      "job_title": "Asistente de Producción",
+      "company": "Ilion Animation Studios",
+      "duration": "Marzo 2017 - Junio 2017"
+    }
+  },
+  "education": {
+    "masterFullStackTajamar": {
+      "description": "",
+      "degree": "Máster en Desarrollo Full Stack + Soluciones Cloud",
+      "institution": "Tajamar",
+      "institutionLogo": "/src/assets/images/tajamarLogo.png",
+      "duration": "Septiembre 2021 - Junio 2022"
+    },
+    "cfgsDawNelson": {
+      "description": "",
+      "degree": "CFGS en Desarrollo de Aplicaciones Web",
+      "institution": "Colegio Nelson",
+      "institutionLogo": "/src/assets/images/centroNelsonLogo.png",
+      "duration": "Septiembre 2019 - Junio 2021"
+    },
+    "cfgsDamJuanDeLaCierva": {
+      "description": "",
+      "degree": "CFGS en Desarrollo de Aplicaciones Multiplataforma",
+      "institution": "Juan de la Cierva",
+      "institutionLogo": "/src/assets/images/iesJuanDelaCierva.png",
+      "duration": "Septiembre 2018 - Junio 2019"
+    },
+    "cfgsAjeiUtad": {
+      "description": "",
+      "degree": "CFGS en Animación juegos y entornos interactivos",
+      "institution": "U-TAD",
+      "institutionLogo": "/src/assets/images/UtadLogo.png",
+      "duration": "Septiembre 2017 - Junio 2018"
+    },
+    "bachilleratoCiencias": {
+      "description": "",
+      "degree": "Bachillerato en Ciencias",
+      "institution": "IES San Isidro",
+      "institutionLogo": "/src/assets/images/iesSanIsidroLogo.png",
+      "duration": "Septiembre 2015 - Junio 2017"
+    }
+  },
+  "certifications": {
+    "AzureDeveloperAssociate": {
+      "title": "Azure Developer Associate",
+      "description": "Certificación oficial en desarrollo de aplicaciones en la nube utilizando Microsoft Azure.",
+      "issuer": "Microsoft",
+      "date": "Abril 2025",
+      "expiration": "Abril 2026",
+      "url": "https://learn.microsoft.com/api/credentials/share/es-es/MartnSanchez-8623/1611C940EA8275EB?sharingId=714D428A73584AED"
+    },
+    "AwsDeveloperAssociate": {
+      "title": "AWS Developer Associate",
+      "description": "Certificación oficial en desarrollo de aplicaciones en la nube utilizando Amazon Web Services.",
+      "issuer": "Amazon",
+      "date": "Mayo 2025",
+      "expiration": "Mayo 2028",
+      "url": "https://www.credly.com/badges/d6d7f634-ea1d-4b4f-a880-1874f1cd8881/public_url"
+    },
+    "Pl400": {
+      "title": "PL-400",
+      "description": "Certificación oficial en desarrollo de soluciones de Microsoft Power Platform.",
+      "issuer": "Microsoft",
+      "date": "Junio 2025",
+      "expiration": "Junio 2026",
+      "url": "https://learn.microsoft.com/api/credentials/share/es-es/MartnSanchez-8623/1F870D694495DB6?sharingId=714D428A73584AED"
+    }
+  }
+}

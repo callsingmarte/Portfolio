@@ -1,0 +1,31 @@
+{
+  "select_language": "Select Language",
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "about": "About Me",
+    "contact": "Contact"
+  },
+  "sections": {
+    "skills": "Skills",
+    "experience": "Experience"
+  },
+  "common": {
+    "view_details": "View Details",
+    "back_to_projects": "Back to Projects"
+  },
+  "languages": {
+    "spanish": "Spanish",
+    "english": "English",
+    "french": "French"
+  },
+  "countries": {
+    "spain": "Spain",
+    "united_kingdom": "United Kingdom",
+    "france": "France"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "I am a passionate web developer with experience in Vue.js, JavaScript, and modern technologies. I love creating interactive and efficient web applications."
+  }
+}

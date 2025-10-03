@@ -1,0 +1,31 @@
+{
+  "select_language": "Sélectionner la langue",
+  "nav": {
+    "home": "Accueil",
+    "projects": "Projets",
+    "about": "Sur Moi",
+    "contact": "Contact"
+  },
+  "sections": {
+    "skills": "Compétences",
+    "experience": "Expérience"
+  },
+  "common": {
+    "view_details": "Voir les détails",
+    "back_to_projects": "Retour aux projets"
+  },
+  "languages": {
+    "spanish": "Espagnol",
+    "english": "Anglais",
+    "french": "Français"
+  },
+  "countries": {
+    "spain": "Espagne",
+    "united_kingdom": "Royaume-Uni",
+    "france": "France"
+  },
+  "about": {
+    "title": "Sur Moi",
+    "description": "Je suis un développeur web passionné avec de l'expérience en Vue.js, JavaScript et technologies modernes. J'adore créer des applications web interactives et efficaces."
+  }
+}
