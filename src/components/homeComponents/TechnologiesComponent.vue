@@ -48,13 +48,17 @@ const collaboration = technologies.filter((tech) => tech.type === 'Collaboration
 
 interface IconTech {
   icon: string
-  size?: string
+  size?: string[]
   color?: string[]
   type?: string
 }
 
-const iconsTech: IconTech[] = [{ icon: 'AWS', size: '3em', type: 'Cloud' }]
+const iconsTech: IconTech[] = [
+  { icon: 'AWS', size: ['3em', '3em'], type: 'Cloud' },
+  { icon: 'Java', size: ['4em', '4em'], type: 'Language' },
+]
 const cloudIcons = iconsTech.filter((icon) => icon.type === 'Cloud')
+const languageIcons = iconsTech.filter((icon) => icon.type === 'Language')
 </script>
 
 <template>
@@ -76,6 +80,9 @@ const cloudIcons = iconsTech.filter((icon) => icon.type === 'Cloud')
           </td>
           <td class="text-center" v-for="tech in languages" :key="tech.name">
             <FontAwesomeIcon :icon="tech.icon" size="2xl" :style="{ color: tech.color }" />
+          </td>
+          <td v-for="tech in languageIcons" :key="tech.icon">
+            <IconsComponent :icon="tech.icon" :size="tech.size" :color="tech.color" />
           </td>
         </tr>
         <tr>
