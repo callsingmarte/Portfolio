@@ -54,11 +54,22 @@ interface IconTech {
 }
 
 const iconsTech: IconTech[] = [
-  { icon: 'AWS', size: ['3em', '3em'], type: 'Cloud' },
+  { icon: 'AWS', size: ['4em', '4em'], type: 'Cloud' },
   { icon: 'Java', size: ['4em', '4em'], type: 'Language' },
+  { icon: 'Net', size: ['2em', '2em'], type: 'Framework' },
+  { icon: 'Azure', size: ['4em', '4em'], type: 'Cloud' },
+  { icon: 'Teams', size: ['3em', '3em'], type: 'Collaboration' },
+  { icon: 'PowerPlatform', size: ['3em', '3em'], type: 'Cloud' },
+  { icon: 'Php', size: ['3em', '3em'], type: 'Language' },
+  { icon: 'Python', size: ['3em', '3em'], type: 'Language' },
+  { icon: 'Slack', size: ['3em', '3em'], type: 'Collaboration' },
+  { icon: 'Spring', size: ['3em', '3em'], type: 'Framework' },
+  { icon: 'Vue', size: ['3em', '3em'], type: 'Framework' },
 ]
 const cloudIcons = iconsTech.filter((icon) => icon.type === 'Cloud')
 const languageIcons = iconsTech.filter((icon) => icon.type === 'Language')
+const frameworkIcons = iconsTech.filter((icon) => icon.type === 'Framework')
+const collabIcons = iconsTech.filter((icon) => icon.type === 'Collaboration')
 </script>
 
 <template>
@@ -72,6 +83,9 @@ const languageIcons = iconsTech.filter((icon) => icon.type === 'Language')
           </td>
           <td class="text-center" v-for="tech in frameworks" :key="tech.name">
             <FontAwesomeIcon :icon="tech.icon" size="2xl" :style="{ color: tech.color }" />
+          </td>
+          <td v-for="tech in frameworkIcons" :key="tech.icon">
+            <IconsComponent :icon="tech.icon" :size="tech.size" :color="tech.color" />
           </td>
         </tr>
         <tr>
@@ -115,6 +129,9 @@ const languageIcons = iconsTech.filter((icon) => icon.type === 'Language')
           </td>
           <td class="text-center" v-for="tech in collaboration" :key="tech.name">
             <FontAwesomeIcon :icon="tech.icon" size="2xl" :style="{ color: tech.color }" />
+          </td>
+          <td class="text-center" v-for="tech in collabIcons" :key="tech.icon">
+            <IconsComponent :icon="tech.icon" :size="tech.size" :color="tech.color" />
           </td>
         </tr>
       </tbody>
