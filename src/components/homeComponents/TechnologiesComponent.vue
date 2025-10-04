@@ -54,10 +54,10 @@ interface IconTech {
 }
 
 const iconsTech: IconTech[] = [
-  { icon: 'AWS', size: ['4em', '4em'], type: 'Cloud' },
-  { icon: 'Java', size: ['4em', '4em'], type: 'Language' },
-  { icon: 'Net', size: ['2em', '2em'], type: 'Framework' },
-  { icon: 'Azure', size: ['4em', '4em'], type: 'Cloud' },
+  { icon: 'AWS', size: ['3em', '3em'], type: 'Cloud' },
+  { icon: 'Java', size: ['3em', '3em'], type: 'Language' },
+  { icon: 'Net', size: ['3em', '3em'], type: 'Framework' },
+  { icon: 'Azure', size: ['3em', '3em'], type: 'Cloud' },
   { icon: 'Teams', size: ['3em', '3em'], type: 'Collaboration' },
   { icon: 'PowerPlatform', size: ['3em', '3em'], type: 'Cloud' },
   { icon: 'Php', size: ['3em', '3em'], type: 'Language' },
@@ -78,57 +78,72 @@ const collabIcons = iconsTech.filter((icon) => icon.type === 'Collaboration')
     <table class="table table-borderless">
       <tbody>
         <tr>
-          <td>
-            <h6>{{ $t('sections.frameworks') }}</h6>
+          <td class="align-middle">
+            <h5>{{ $t('sections.frameworks') }}</h5>
           </td>
           <td class="text-center" v-for="tech in frameworks" :key="tech.name">
-            <FontAwesomeIcon :icon="tech.icon" size="2xl" :style="{ color: tech.color }" />
+            <FontAwesomeIcon
+              :icon="tech.icon"
+              :style="{ color: tech.color, width: '3em', height: '3em' }"
+            />
           </td>
           <td v-for="tech in frameworkIcons" :key="tech.icon">
             <IconsComponent :icon="tech.icon" :size="tech.size" :color="tech.color" />
           </td>
         </tr>
         <tr>
-          <td>
-            <h6>{{ $t('sections.languages') }}</h6>
+          <td class="align-middle">
+            <h5>{{ $t('sections.languages') }}</h5>
           </td>
           <td class="text-center" v-for="tech in languages" :key="tech.name">
-            <FontAwesomeIcon :icon="tech.icon" size="2xl" :style="{ color: tech.color }" />
+            <FontAwesomeIcon
+              :icon="tech.icon"
+              :style="{ color: tech.color, width: '3em', height: '3em' }"
+            />
           </td>
-          <td v-for="tech in languageIcons" :key="tech.icon">
+          <td class="text-center" v-for="tech in languageIcons" :key="tech.icon">
             <IconsComponent :icon="tech.icon" :size="tech.size" :color="tech.color" />
           </td>
         </tr>
         <tr>
-          <td>
-            <h6>{{ $t('sections.cloud') }}</h6>
+          <td class="align-middle">
+            <h5>{{ $t('sections.cloud') }}</h5>
           </td>
-          <td v-for="tech in cloudIcons" :key="tech.icon">
+          <td class="text-center" v-for="tech in cloudIcons" :key="tech.icon">
             <IconsComponent :icon="tech.icon" :size="tech.size" :color="tech.color" />
           </td>
         </tr>
         <tr>
-          <td>
-            <h6>{{ $t('sections.versionControl') }}</h6>
+          <td class="align-middle">
+            <h5>{{ $t('sections.versionControl') }}</h5>
           </td>
           <td class="text-center" v-for="tech in versionControl" :key="tech.name">
-            <FontAwesomeIcon :icon="tech.icon" size="2xl" :style="{ color: tech.color }" />
+            <FontAwesomeIcon
+              :icon="tech.icon"
+              :style="{ color: tech.color, width: '3em', height: '3em' }"
+            />
           </td>
         </tr>
         <tr>
-          <td>
-            <h6>{{ $t('sections.containerization') }}</h6>
+          <td class="align-middle">
+            <h5>{{ $t('sections.containerization') }}</h5>
           </td>
           <td class="text-center" v-for="tech in containerization" :key="tech.name">
-            <FontAwesomeIcon :icon="tech.icon" size="2xl" :style="{ color: tech.color }" />
+            <FontAwesomeIcon
+              :icon="tech.icon"
+              :style="{ color: tech.color, width: '3em', height: '3em' }"
+            />
           </td>
         </tr>
         <tr>
-          <td>
-            <h6>{{ $t('sections.collaboration') }}</h6>
+          <td class="align-middle">
+            <h5>{{ $t('sections.collaboration') }}</h5>
           </td>
           <td class="text-center" v-for="tech in collaboration" :key="tech.name">
-            <FontAwesomeIcon :icon="tech.icon" size="2xl" :style="{ color: tech.color }" />
+            <FontAwesomeIcon
+              :icon="tech.icon"
+              :style="{ color: tech.color, width: '3em', height: '3em' }"
+            />
           </td>
           <td class="text-center" v-for="tech in collabIcons" :key="tech.icon">
             <IconsComponent :icon="tech.icon" :size="tech.size" :color="tech.color" />
