@@ -87,7 +87,7 @@ const collabIcons = iconsTech.filter((icon) => icon.type === 'Collaboration')
               :style="{ color: tech.color, width: '3em', height: '3em' }"
             />
           </td>
-          <td v-for="tech in frameworkIcons" :key="tech.icon">
+          <td class="text-center" v-for="tech in frameworkIcons" :key="tech.icon">
             <IconsComponent :icon="tech.icon" :size="tech.size" :color="tech.color" />
           </td>
         </tr>
