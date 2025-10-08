@@ -28,7 +28,7 @@ const projectsList = [
 
 <template>
   <section>
-    <h2>{{ $t('sections.projects') }}</h2>
+    <h2 class="text-uppercase">{{ $t('sections.projects') }}</h2>
     <p>{{ $t('sections.projectsDescription') }}</p>
     <div class="row">
       <article v-for="projects in projectsList" :key="projects.key.index" class="col project">

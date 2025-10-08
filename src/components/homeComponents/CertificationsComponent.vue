@@ -1,6 +1,6 @@
 <template>
   <section class="mt-5">
-    <h2>{{ $t('sections.certifications') }}</h2>
+    <h2 class="text-uppercase">{{ $t('sections.certifications') }}</h2>
     <p>{{ $t('sections.certificationsDescription') }}</p>
     <div class="row">
       <article

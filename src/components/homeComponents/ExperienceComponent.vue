@@ -1,5 +1,5 @@
 <template>
-  <h2>{{ $t('sections.experience') }}</h2>
+  <h2 class="text-uppercase">{{ $t('sections.experience') }}</h2>
   <p>{{ $t('sections.experienceDescription') }}</p>
   <article
     class="experience row h-100"

@@ -74,7 +74,7 @@ const collabIcons = iconsTech.filter((icon) => icon.type === 'Collaboration')
 
 <template>
   <section>
-    <h2>{{ $t('sections.technologies') }}</h2>
+    <h2 class="text-uppercase">{{ $t('sections.technologies') }}</h2>
     <table class="table table-borderless">
       <tbody>
         <tr>
@@ -115,6 +115,20 @@ const collabIcons = iconsTech.filter((icon) => icon.type === 'Collaboration')
         </tr>
         <tr>
           <td class="align-middle">
+            <h5>{{ $t('sections.collaboration') }}</h5>
+          </td>
+          <td class="text-center" v-for="tech in collaboration" :key="tech.name">
+            <FontAwesomeIcon
+              :icon="tech.icon"
+              :style="{ color: tech.color, width: '3em', height: '3em' }"
+            />
+          </td>
+          <td class="text-center" v-for="tech in collabIcons" :key="tech.icon">
+            <IconsComponent :icon="tech.icon" :size="tech.size" :color="tech.color" />
+          </td>
+        </tr>
+        <tr>
+          <td class="align-middle">
             <h5>{{ $t('sections.versionControl') }}</h5>
           </td>
           <td class="text-center" v-for="tech in versionControl" :key="tech.name">
@@ -133,20 +147,6 @@ const collabIcons = iconsTech.filter((icon) => icon.type === 'Collaboration')
               :icon="tech.icon"
               :style="{ color: tech.color, width: '3em', height: '3em' }"
             />
-          </td>
-        </tr>
-        <tr>
-          <td class="align-middle">
-            <h5>{{ $t('sections.collaboration') }}</h5>
-          </td>
-          <td class="text-center" v-for="tech in collaboration" :key="tech.name">
-            <FontAwesomeIcon
-              :icon="tech.icon"
-              :style="{ color: tech.color, width: '3em', height: '3em' }"
-            />
-          </td>
-          <td class="text-center" v-for="tech in collabIcons" :key="tech.icon">
-            <IconsComponent :icon="tech.icon" :size="tech.size" :color="tech.color" />
           </td>
         </tr>
       </tbody>
