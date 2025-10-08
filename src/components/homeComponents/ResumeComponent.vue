@@ -2,7 +2,7 @@
   <section>
     <TechnologiesComponent />
     <div class="row gap-3 mt-3" id="resume">
-      <h2>{{ $t('sections.resume') }}</h2>
+      <h2 class="text-uppercase">{{ $t('sections.resume') }}</h2>
       <p>{{ $t('sections.resumeDescription') }}</p>
       <section class="col-lg col-md-12 col-sm-12 col-12 card p-3 shadow">
         <ExperienceComponent :shortDescription="true" />

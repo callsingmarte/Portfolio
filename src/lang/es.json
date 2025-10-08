@@ -15,6 +15,7 @@
     "technologies": "Tecnologías",
     "frameworks": "Frameworks",
     "languages": "Lenguajes",
+    "databases": "Bases de datos",
     "cloud": "Nube",
     "versionControl": "Control de Versiones",
     "containerization": "Contenerización",
@@ -45,7 +46,9 @@
   },
   "about": {
     "title": "Sobre Mí",
-    "description": "Soy un desarrollador web apasionado con experiencia en Vue.js, JavaScript y tecnologías modernas. Me encanta crear aplicaciones web interactivas y eficientes."
+    "description": "Soy desarrollador Fullstack Junior con 2 años de experiencia enfocado en la arquitectura web con PHP/Laravel y Vue.js, complementado con bases de datos MySQL y el uso de patrones de diseño como el Modelo Vista Controlador (MVC) y Singleton. Comprometido con el desarrollo de soluciones escalables y la optimización de procesos internos, con el objetivo de generar valor medible en el rendimiento de la aplicación y la eficiencia del equipo.",
+    "contact": "Contactame a traves de LinkedIn ->",
+    "check_my_projects": "Puedes ver mis proyectos en GitHub ->"
   },
   "experience": {
     "gamersfy": {

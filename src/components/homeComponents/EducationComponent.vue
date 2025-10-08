@@ -1,5 +1,5 @@
 <template>
-  <h2>{{ $t('sections.education') }}</h2>
+  <h2 class="text-uppercase">{{ $t('sections.education') }}</h2>
   <p>{{ $t('sections.educationDescription') }}</p>
   <article class="education row h-100" v-for="education in educations" :key="education.key.index">
     <div class="text-center education-img col-md col-sm-12 col-12">
